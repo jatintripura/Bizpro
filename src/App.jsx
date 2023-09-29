@@ -6,6 +6,7 @@ import frame_11 from "../src/assets/img/Frame 11.png";
 import frame_12 from "../src/assets/img/Frame 12.png";
 import frame_13 from "../src/assets/img/Frame 13.png";
 import frame_13_1 from "../src/assets/img/Frame 13_1.png";
+import frame_20 from "../src/assets/img/Frame 20.png";
 import frame_9 from "../src/assets/img/Frame 9.png";
 import group from "../src/assets/img/Group 18.png";
 import group_20 from "../src/assets/img/Group 20.png";
@@ -17,6 +18,10 @@ import group_33_1 from "../src/assets/img/Group 33761.png";
 import group_33_2 from "../src/assets/img/Group 33762.png";
 import Instagram from "../src/assets/img/Instagram.png";
 import Linkdin from "../src/assets/img/LinkedIn.png";
+import package_1 from "../src/assets/img/Package 1.png";
+import package_2 from "../src/assets/img/Package 2.png";
+import package_3 from "../src/assets/img/Package 3.png";
+import package_4 from "../src/assets/img/Package 4.png";
 import Twiter from "../src/assets/img/Twitter.png";
 import hero from "../src/assets/img/hero main component.png";
 import quotes from "../src/assets/img/straight-quotes 1.png";
@@ -241,6 +246,30 @@ function App() {
                 <span className="absolute bottom-20 -right-4">
                   <img src={group_33_2} alt="group" />
                 </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-background">
+          <div className="container mx-auto">
+            <div className="flex justify-between pt-[105px] pb-[75px]">
+              <h1 className="text-accent text-[45px] font-bold">
+                Popular packages
+              </h1>
+              <img src={frame_20} alt="frame" />
+            </div>
+            <div className=" flex items-center justify-around pb-[110px]">
+              <div>
+                <img src={package_1} alt="package 1" />
+              </div>
+              <div>
+                <img src={package_2} alt="package 2" />
+              </div>
+              <div>
+                <img src={package_3} alt="package 3" />
+              </div>
+              <div>
+                <img src={package_4} alt="package 4" />
               </div>
             </div>
           </div>
