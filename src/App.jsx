@@ -8,6 +8,7 @@ import frame_13 from "../src/assets/img/Frame 13.png";
 import frame_13_1 from "../src/assets/img/Frame 13_1.png";
 import frame_20 from "../src/assets/img/Frame 20.png";
 import frame_9 from "../src/assets/img/Frame 9.png";
+import global from "../src/assets/img/Global Communication.png";
 import group from "../src/assets/img/Group 18.png";
 import group_20 from "../src/assets/img/Group 20.png";
 import group_20_1 from "../src/assets/img/Group 20_1.png";
@@ -275,6 +276,11 @@ function App() {
                 <img src={package_4} alt="package 4" />
               </div>
             </div>
+          </div>
+        </section>
+        <section className="bg-white py-[110px">
+          <div className="container mx-auto">
+            <img src={global} alt="" />
           </div>
         </section>
         <section className="bg-white py-[110px]">
