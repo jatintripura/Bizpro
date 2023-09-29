@@ -16,6 +16,7 @@ import group_25 from "../src/assets/img/Group 25.png";
 import group_33 from "../src/assets/img/Group 33760.png";
 import group_33_1 from "../src/assets/img/Group 33761.png";
 import group_33_2 from "../src/assets/img/Group 33762.png";
+import group_3376_1 from "../src/assets/img/Group 3376_1.png";
 import Instagram from "../src/assets/img/Instagram.png";
 import Linkdin from "../src/assets/img/LinkedIn.png";
 import package_1 from "../src/assets/img/Package 1.png";
@@ -24,7 +25,9 @@ import package_3 from "../src/assets/img/Package 3.png";
 import package_4 from "../src/assets/img/Package 4.png";
 import Twiter from "../src/assets/img/Twitter.png";
 import hero from "../src/assets/img/hero main component.png";
+import icon from "../src/assets/img/icon-small.png";
 import quotes from "../src/assets/img/straight-quotes 1.png";
+import uni from "../src/assets/img/uni.png";
 import victory from "../src/assets/img/victory.png";
 import Video from "../src/assets/img/video.png";
 
@@ -149,8 +152,8 @@ function App() {
                 services by identifying audience.
               </p>
             </div>
-            <div className="grid grid-cols-12 items-end ">
-              <div className="col-star-1 col-span-4">
+            <div className="flex items-center justify-between pt-[70px]">
+              <div>
                 <div className="px-[30px]">
                   <img className="py-[30px]" src={group_20} alt="group 20" />
                   <h1 className="py-[10px] text-accent font-[500] text-[24px]">
@@ -162,7 +165,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="col-star-5 col-span-4">
+              <div>
                 <div className="px-[30px]">
                   <img className="py-[30px]" src={group_20_1} alt="group 20" />
                   <h1 className="py-[10px] text-accent font-[500] text-[24px]">
@@ -175,7 +178,7 @@ function App() {
                   </p>
                 </div>
               </div>
-              <div className="col-star-9 col-span-4">
+              <div>
                 <div className="px-[30px]">
                   <img className="py-[30px]" src={group_20_2} alt="group 20" />
                   <h1 className="py-[10px] text-accent font-[500] text-[24px]">
@@ -191,7 +194,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="bg-white pT-[60px] pb-[110px]">
+        <section className="bg-white pt-[60px] pb-[110px]">
           <div className=" container mx-auto grid grid-cols-12">
             <div className="col-star-1 col-span-6">
               <div>
@@ -271,6 +274,39 @@ function App() {
               <div>
                 <img src={package_4} alt="package 4" />
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-white py-[110px]">
+          <div className="container mx-auto relative bg-background  py-[60px] rounded-md">
+            <div className=" pl-[60px]">
+              <h1 className="text-accent font-bold text-[45px]">
+                Subscribe newsletter
+              </h1>
+              <p className="text-sm text-paragraph leading-[28px] pt-[20px] pb-[40px]">
+                Businesses generally promote their brand, products, and services
+                by identifying audience.<br></br> No wonder that promotion
+                strategy is one of the most important processes in marketing.
+              </p>
+              <div className="relative">
+                <input
+                  type="email"
+                  className="relative py-[24px] px-[30px] w-[50%]"
+                  placeholder="Enter your mail."
+                />
+                <button className="absolute right-[50%]  top-1 bg-accent text-white py-[20px] px-[30px] rounded-md">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <div className="absolute bottom-0 right-4">
+              <img className="relative" src={uni} alt="student" />
+              <span className="absolute -bottom-18 -right-20">
+                <img src={group_3376_1} alt=" group icon" />
+              </span>
+              <span className="absolute -top-8 right-20">
+                <img src={icon} alt="small group" />
+              </span>
             </div>
           </div>
         </section>
