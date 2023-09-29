@@ -4,12 +4,17 @@ import Elips_1 from "../src/assets/img/Ellipse 11.png";
 import Facebook from "../src/assets/img/Facebook.png";
 import frame_11 from "../src/assets/img/Frame 11.png";
 import frame_12 from "../src/assets/img/Frame 12.png";
+import frame_13 from "../src/assets/img/Frame 13.png";
+import frame_13_1 from "../src/assets/img/Frame 13_1.png";
 import frame_9 from "../src/assets/img/Frame 9.png";
 import group from "../src/assets/img/Group 18.png";
 import group_20 from "../src/assets/img/Group 20.png";
 import group_20_1 from "../src/assets/img/Group 20_1.png";
 import group_20_2 from "../src/assets/img/Group 20_2.png";
+import group_25 from "../src/assets/img/Group 25.png";
 import group_33 from "../src/assets/img/Group 33760.png";
+import group_33_1 from "../src/assets/img/Group 33761.png";
+import group_33_2 from "../src/assets/img/Group 33762.png";
 import Instagram from "../src/assets/img/Instagram.png";
 import Linkdin from "../src/assets/img/LinkedIn.png";
 import Twiter from "../src/assets/img/Twitter.png";
@@ -177,6 +182,65 @@ function App() {
                     can be highly beneficial.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-white pT-[60px] pb-[110px]">
+          <div className=" container mx-auto grid grid-cols-12">
+            <div className="col-star-1 col-span-6">
+              <div>
+                <h1 className="relative text-accent font-bold text-[45px] pb-[12px]">
+                  About us
+                  <span className="absolute -top-1 left-12">
+                    <img src={Elips_1} alt="elips" />
+                  </span>
+                </h1>
+                <p className="text-paragraph text-sm  leading-[28px] py-[12px]">
+                  No wonder that promotion strategy is one of the most<br></br>{" "}
+                  important processes in marketing. In fact, it supports your
+                  <br></br> marketing voices to reach your target audience,
+                  creates<br></br> interest, and helps you to engage with them.
+                </p>
+              </div>
+              <div className="flex gap-[24px] pt-6">
+                <div>
+                  <img src={frame_13} alt="" />
+                </div>
+                <div>
+                  <h1 className="text-accent font-semibold text-[20px]">
+                    Safe and secured
+                  </h1>
+                  <p className="text-paragraph text-sm leading-[28px]">
+                    Safe and secured promotion strategy is one of the<br></br>{" "}
+                    most important processes in marketing.
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-[24px] py-6">
+                <div>
+                  <img src={frame_13_1} alt="" />
+                </div>
+                <div>
+                  <h1 className="text-accent font-semibold text-[20px]">
+                    Highly expert team
+                  </h1>
+                  <p className="text-paragraph text-sm leading-[28px]">
+                    We supports your marketing voices to reach your<br></br>{" "}
+                    target audience, creates interest.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className=" col-star-7 col-span-6">
+              <div className="relative ">
+                <img src={group_25} alt="group 25" />
+                <span className="absolute -top-20 -right-5">
+                  <img src={group_33_1} alt="group" />
+                </span>
+                <span className="absolute bottom-20 -right-4">
+                  <img src={group_33_2} alt="group" />
+                </span>
               </div>
             </div>
           </div>
